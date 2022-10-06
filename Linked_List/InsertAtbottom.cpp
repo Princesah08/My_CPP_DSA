@@ -25,7 +25,7 @@ void InsertAtTail(Node *&tail, int NewData)
 
     tail->next = NewNode;
     tail = NewNode;
-} 
+}
 // creating function for traverse the Linked List
 void printLL(Node *&head)
 {
@@ -48,8 +48,7 @@ int main()
     Node *head = Node1;
     Node *tail = Node1;
     // Insert 10 at the tail
-    InsertAtTail(tail, 10);
-
-    // printing Linked list 
-    printLL(tail); 
+    InsertAtTail(tail, 10); 
+    // printing Linked list
+    printLL(Node1);
 }
